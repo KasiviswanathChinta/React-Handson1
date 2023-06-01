@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  border:0;
+}
+.App {
+  text-align: center;
+  background-image:linear-gradient(skyblue, pink, white);
+}
+.box{
+  text-shadow: 5px 5px slateblue;
+}
+body{
+  width:100vw;
+  height:100vh;
+  margin: 0 0;
+}
+.func{
+  border: 3px solid black;
+  border-radius:30px;
+  background: skyblue;
+  box-sizing: border-box;
+  width:40%;
+  height:250px;
+  margin:40px;
+  padding:20px;
+  float:left;
+}
+.external{
+  color:black;
+}
+.class{
+  border: 3px solid black;
+  border-radius:30px;
+  background: purple;
+  box-sizing: border-box;
+  width:40%;
+  height:250px;
+  padding:20px;
+  margin:40px;
+  float:right;
+}
+button{
+  width:250px;
+  height:50px;
+  border-radius: 20px;
+  background:gray;
+  margin:100px;
+  border:2px solid black;
+}
+button:hover{
+  background: skyblue;
+}
